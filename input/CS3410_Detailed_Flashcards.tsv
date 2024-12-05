@@ -1,0 +1,54 @@
+What does SSH stand for, and what is its purpose?	SSH stands for Secure Shell, and it is used to securely connect to a remote computer.
+How do you connect to Cornell's resources from off-campus?	Use Cornell's VPN to simulate being on campus, then use SSH.
+What command copies a file from a remote machine to your local machine using SSH?	`scp <user>@<host>:<source> <dest>`
+What are the key elements of a variable declaration in C?	A variable declaration includes the type and variable name, ending with a semicolon.
+How do you initialize an integer variable in C?	`int x = 10;` initializes an integer with a value of 10.
+What is an expression in C, and where can it appear?	An expression evaluates to a value and can appear in assignments, loops, or function calls.
+What are the four parts of a C function definition?	Return type, function name, parameter list, and function body.
+Why does the `main` function always return `int`?	It indicates the program's exit status: 0 for success, non-zero for failure.
+How do you pass arguments to a C function?	Arguments are passed inside parentheses, matching the function's parameter types.
+What is the purpose of header files in C?	Header files declare functions and variables to be used across multiple files.
+How do you include standard library headers vs custom headers?	"Use angle brackets `<stdio.h>` for standard headers and quotes `""file.h""` for custom headers."
+What happens if you try to use a function before declaring it in C?	The compiler will throw an error for implicit declarations.
+What is the syntax of an `if-else` condition in C?	`if (condition) { ... } else { ... }`
+How does a `for` loop differ from a `while` loop in C?	`for` loops include initialization, condition, and increment; `while` loops only have a condition.
+What is the purpose of `break` and `continue` in loops?	`break` exits the loop; `continue` skips to the next iteration.
+How do you declare an array of integers with 5 elements?	`int arr[5];`
+What happens if you access an index outside an array's bounds in C?	Accessing out-of-bounds elements leads to undefined behavior.
+How do you pass an array as a parameter to a function?	Pass the array name (pointer) and its size as separate arguments.
+What is a pointer, and how do you declare one in C?	A pointer stores the address of a variable; declare it with `int *ptr;`.
+What is the difference between `*` and `&` in C?	`*` dereferences a pointer; `&` gets the address of a variable.
+How do you dynamically allocate memory for an integer in C?	`int *ptr = malloc(sizeof(int));`
+What is the difference between mutable and immutable strings in C?	Mutable strings can be modified; immutable strings cannot.
+Why can’t you use `==` to compare strings in C?	`strcmp` should be used to compare strings.
+What is the purpose of the null terminator `\0` in strings?	It marks the end of the string in memory.
+How do you declare a struct in C?	`struct Point { int x; int y; };`
+What is an enum, and how do you use it in C?	An enum is a user-defined type with named integer constants.
+What is the arrow operator (`->`) used for in structs?	It dereferences a pointer to a struct and accesses its fields.
+What is the purpose of the `malloc` function in C?	Allocates memory on the heap.
+How does `calloc` differ from `malloc`?	`calloc` initializes memory to zero; `malloc` does not.
+What does the `free` function do, and why is it important?	Releases allocated memory back to the system.
+What is the purpose of a macro in C?	Defines constants and reusable code snippets.
+Why should magic numbers be replaced with macros?	Magic numbers make code harder to maintain and understand.
+What does `#define SIZE 100` do in C?	Replaces `SIZE` with 100 wherever it appears in the code.
+What is RISC-V, and why is it significant?	RISC-V is an open-source instruction set architecture.
+What is the difference between `lw` and `sw` in RISC-V?	`lw` loads a word from memory; `sw` stores a word to memory.
+What is the purpose of the `addi` instruction in RISC-V?	Adds an immediate value to a register.
+How do you convert the decimal number 37 into binary?	`37` in binary is `100101`.
+What is the result of adding binary numbers `1101` and `101`?	`11010`
+What is two’s complement representation, and why is it used?	It represents signed numbers by flipping bits and adding one.
+What is the purpose of a Makefile?	Automates compilation and linking processes.
+What does the `.PHONY` target mean in a Makefile?	Marks targets that do not correspond to files.
+How do you define a clean target in a Makefile?	`rm -f *.o *.out`
+What is instruction pipelining, and why is it useful?	Overlaps instruction stages to increase throughput.
+What are the roles of the ALU and control unit in a CPU?	The ALU performs arithmetic; the control unit orchestrates instructions.
+What are the benefits of cache memory in computer systems?	Cache reduces memory access latency.
+What does `realloc` do in memory management?	Changes the size of a previously allocated memory block.
+What is the result of passing a NULL pointer to `free`?	No operation; `free` ignores NULL pointers.
+How do you check for memory leaks in a C program?	Use tools like Valgrind to detect memory leaks.
+What is short-circuit evaluation in C?	Short-circuit evaluation skips the second operand if the first determines the result.
+What is the difference between `&&` and `||` in logical operations?	`&&` is logical AND; `||` is logical OR.
+What does `!` do in a logical expression?	`!` negates the expression.
+What are the steps for converting a decimal number to hexadecimal?	Divide the number by 16 repeatedly, recording remainders.
+What is the difference between static and dynamic variables in C?	Static variables retain their value across function calls.
+What is the significance of the stack and heap in memory management?	The stack handles local variables; the heap handles dynamic memory.

@@ -1,0 +1,44 @@
+What are the main differences between C and Python?	C is a compiled, statically typed language with manual memory management, while Python is an interpreted, dynamically typed language with automatic garbage collection.
+Explain the role of header files in C.	Header files contain declarations for functions and variables, allowing modularity and code reuse.
+What is the purpose of the `return` keyword in C functions?	It specifies the value that a function sends back to its caller.
+What is the difference between stack and heap memory?	Stack memory is used for static memory allocation and local variables, while heap memory is for dynamic allocation.
+What are common issues with dynamic memory allocation in C?	Memory leaks, dangling pointers, and double-free errors are common issues.
+How does `calloc` differ from `malloc`?	`calloc` initializes memory to zero, while `malloc` does not.
+What is a pointer-to-pointer in C, and when would you use it?	A pointer-to-pointer stores the address of another pointer and is useful for multi-level data structures like 2D arrays.
+How does pointer arithmetic work? Provide an example.	Adding to a pointer shifts its address by the size of the pointed-to type. Example: `int *p; p + 1` points to the next integer in memory.
+What is a function pointer, and how do you declare one?	A function pointer stores the address of a function. Example: `int (*funcPtr)(int, int);`
+What is the difference between `while` and `do-while` loops?	`while` checks the condition before running the loop, whereas `do-while` checks it after.
+How is `break` different from `continue` in loop control?	`break` exits the loop, while `continue` skips the current iteration and proceeds to the next.
+Write a C program using a `switch` statement to print the name of a day given its number (1-7).	"```c
+switch (day) {
+case 1: printf(""Monday""); break;
+case 2: printf(""Tuesday""); break; //... 
+default: printf(""Invalid day"");
+}```"
+What is a function prototype in C? Why is it necessary?	A prototype declares the function signature and allows the compiler to check for correct calls.
+Explain recursion with an example in C.	Recursion is when a function calls itself. Example: `int factorial(int n) { return n ? n * factorial(n-1) : 1; }`
+What is the difference between pass-by-value and pass-by-reference?	Pass-by-value copies the variable, while pass-by-reference passes the address.
+What are the primary types of RISC-V instructions?	RISC-V has arithmetic, control, memory, and immediate instructions.
+Explain the purpose of the `lw` and `sw` instructions in RISC-V.	`lw` loads a word from memory into a register; `sw` stores a word from a register into memory.
+What is the difference between immediate and register-based instructions in RISC-V?	Immediate instructions use constant values; register-based ones use values in registers.
+What is a `PHONY` target in a Makefile?	A `PHONY` target prevents a conflict with a file of the same name.
+How do you define variables in a Makefile, and how are they used?	Variables are defined with `=` and used as `$(variable_name)`.
+Write a Makefile rule to compile a program from multiple source files.	"```Makefile
+all: main.o utils.o
+	gcc -o program main.o utils.o
+```"
+Convert the decimal number 156 to binary, octal, and hexadecimal.	Binary: `10011100`, Octal: `234`, Hex: `9C`.
+Explain how binary addition works with carrying.	Binary addition follows bitwise rules, with carry propagating to the next higher bit.
+What is the difference between signed and unsigned binary numbers?	Signed numbers use two's complement; unsigned numbers do not.
+What are nested structures in C, and how are they used?	Nested structures allow a `struct` to contain another `struct`. Example: `struct Address { int zip; }; struct Person { struct Address addr; };`
+Explain bitfields in C with an example.	Bitfields allow memory-efficient representation of data. Example: `struct { unsigned int a:4; unsigned int b:4; };`
+How can you assign custom values to an `enum` in C?	`enum {RED=1, GREEN=5, BLUE=10};` assigns custom values.
+What is the purpose of conditional compilation in C?	Conditional compilation includes/excludes code based on macros. Example: `#ifdef DEBUG`.
+How does the `#define` directive improve code maintainability?	`#define` replaces a name with a value, improving readability and reducing errors.
+Explain the purpose of the `#pragma` directive.	`#pragma` provides implementation-specific instructions, like `#pragma once`.
+What is the `volatile` keyword in C, and why is it used?	`volatile` prevents the compiler from optimizing out variable accesses, useful in hardware programming.
+What is inline assembly, and when would you use it?	Inline assembly embeds assembly code in C for performance-critical sections.
+How does the `register` keyword optimize performance?	`register` suggests storing a variable in a CPU register for faster access.
+What are the main components of a CPU?	CPU components include ALU, control unit, and registers.
+Explain the concept of instruction pipelining.	Instruction pipelining overlaps the execution of multiple instructions to improve throughput.
+What is the role of the cache in a computer system?	Cache stores frequently used data for quick access, reducing latency.

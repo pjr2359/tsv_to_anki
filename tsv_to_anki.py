@@ -1,11 +1,9 @@
 import csv
+import html
 from genanki import Deck, Note, Package, Model
 
-NAME = "flashcards"
+NAME = "CS3410_Detailed_Flashcards"
 MODEL = 1607392319
-
-
-
 
 model_id = MODEL 
 model = Model(
@@ -24,7 +22,7 @@ model = Model(
     ],
 )
 
-#Anki deck
+# Anki deck
 def generate_deck_id(name: str) -> int:
     base = 2147483647
     return abs(hash(name)) % base
@@ -36,18 +34,18 @@ deck = Deck(
 )
 
 # Read the TSV file and add notes to the deck
-tsv_file = "flashcards.tsv"  
+tsv_file = f"./input/{NAME}.tsv"  
 with open(tsv_file, newline='', encoding='utf-8') as file:
     reader = csv.reader(file, delimiter='\t')
     for row in reader:
         if len(row) >= 2:  # check for front and back
-            front, back = row[0], row[1]
+            front, back = html.escape(row[0]), html.escape(row[1])
             note = Note(
                 model=model,
                 fields=[front, back]
             )
             deck.add_note(note)
 
-output_path = f"{NAME}.apkg"  # Output .apkg file
+output_path = f"./output/{NAME}.apkg"  # Output .apkg file
 Package(deck).write_to_file(output_path)
 print(f"Anki deck saved as {output_path}")
