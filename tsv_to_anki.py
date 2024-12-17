@@ -2,7 +2,7 @@ import csv
 import html
 from genanki import Deck, Note, Package, Model
 
-NAME = "flashcards_exam4"
+NAME = "algos"  # Name of the deck--replace to switch input tsv
 MODEL = 1607392319
 
 model_id = MODEL 

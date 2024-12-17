@@ -1,0 +1,30 @@
+Name	
+Gale-Shapley (Stable Matching)	Finds a stable matching between two sets (e.g., stable marriage)--Initialize all unmatched. Each man proposes to women in order until accepted. Women accept "best" proposal so far. Repeat until all matched.--O(n^2)
+Interval Scheduling	Maximizes number of non-overlapping intervals--Sort intervals by finish time, select earliest finishing interval, remove overlapping, repeat.--O(n log n)
+Kruskal’s (MST)	Finds minimum spanning tree in a weighted undirected graph--Sort edges by weight. Iterate over edges, add edge if it doesn’t form a cycle (use union-find). Continue until spanning tree formed.--O(m log n)
+Prim’s (MST)	Finds minimum spanning tree in a weighted undirected graph--Start from any vertex, grow MST by adding cheapest edge connecting tree to a new vertex (use a priority queue).--O(m log n)
+Reverse-Delete (MST)	Finds minimum spanning tree (reverse of Kruskal’s)--Start with all edges. Sort by descending weight, try removing edges if they don’t disconnect the graph. Keep edges that are necessary.--O(m log n)
+Minimize Maximum Lateness	Schedules tasks with deadlines to minimize max lateness--Sort tasks by their deadlines and schedule them in that order.--O(n log n)
+Huffman Coding	Constructs optimal prefix-free codes for given symbol frequencies--Create a leaf node per symbol, push into min-heap by freq. Extract two smallest, combine, repeat until one tree remains.--O(n log n)
+Weighted Interval Scheduling	Selects non-overlapping intervals with maximum total weight--Sort intervals by finish time. Use DP: for each interval, choose to include it plus best compatible interval before it or skip it.--O(n log n)
+Segmented Least Squares	Fits points with piecewise linear segments minimizing error--Precompute least-squares errors for all segments. Use DP to choose segmentation minimizing total error.--O(n^2)
+Knapsack (0/1)	Maximizes total value under a weight constraint--Use DP over items and capacities: for each item, choose include or exclude to maximize value without exceeding capacity.--O(nW) (pseudo-polynomial)
+Bellman-Ford (Shortest Paths)	Finds shortest paths even with negative edges (no negative cycles)--Initialize distances. Relax all edges n-1 times. Check for negative cycles.--O(nm)
+QuickSelect	Finds k-th smallest element in an unsorted array--choose pivot, partition array, recurse on one side depending on k.--Average O(n), Worst O(n^2)
+Karatsuba Multiplication	Faster integer multiplication for large numbers--Divide-and-conquer method reducing multiplications from 4 to 3 at each step.--O(n^{1.585})
+Closest Pair of Points	Finds closest two points in a set of points--Divide and conquer: split by median line, find closest pair in each half, check strip for closer pair--O(n log n)
+Ford-Fulkerson (Max Flow)	Computes maximum flow in a network--While an augmenting path exists in residual graph, add flow through it. Repeat until no augmenting path.--O(E * max_flow)
+Min-Cut	Finds min set of edges to separate source and sink in a network--After max flow, find reachable vertices in residual graph. Edges from reachable to non-reachable form min-cut.--Same as max-flow complexity
+Bipartite Matching	Finds maximum matching in a bipartite graph--Use augmenting paths (Hopcroft-Karp): repeatedly find shortest augmenting paths and flip their edges.--O(√V * E)
+Disjoint Paths	Finds maximum number of vertex/edge-disjoint paths between two vertices--Reduce to max-flow with unit capacities; max-flow equals number of disjoint paths.--Depends on max-flow algorithm
+Project Selection	Chooses subset of projects for max profit considering dependencies--Formulate as min-cut/max-flow problem. Min-cut partition corresponds to optimal project set.--Depends on max-flow/min-cut algorithm
+Independent Set	Selects a set of vertices with no edges between them--NP-hard. Typically solved by exponential search or approximation.--NP-hard
+Vertex Cover	Smallest set of vertices touching all edges--NP-hard. Approximation by picking both endpoints of uncovered edges.--NP-hard, 2-approximation in poly time
+Set Cover	Minimum sets to cover a universe of elements--NP-hard. Greedy approximation: pick set covering most uncovered elements.--NP-hard, O(log n)-approximation
+SAT (Boolean Satisfiability)	Check if a Boolean formula is satisfiable--NP-complete. Solved by backtracking/DPLL/CDCL SAT solvers.--NP-complete
+Hamiltonian Cycle	Check if a cycle visits each vertex exactly once--NP-complete. Solved by backtracking or DP in exponential time.--NP-complete
+Subset Sum	Check if a subset sums to a given target--NP-complete. Pseudo-polynomial DP approach if target is small.--NP-complete
+Approx Load Balancing	Approximate partition of tasks to minimize maximum load--Greedy: sort tasks, assign each to the least-loaded machine. Provides 2-approximation.--Polynomial-time approximation
+Approx Max 3-SAT	Approximate max number of satisfiable clauses in 3-SAT formula--Use randomized or greedy assignments to achieve approximation ratio.--NP-hard, approximation in polynomial time
+Approx Knapsack	Approximate knapsack solution close to optimal--Use scaling/rounding and DP to get a (1-ε)-approximate solution.--Polynomial-time approximation scheme
+Approx Online Bipartite Matching	Approx maximum matching as vertices arrive online--Greedy algorithm matches new arrivals if possible. Achieves 1 - 1/e approximation.--Polynomial-time per arrival
