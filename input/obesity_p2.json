@@ -1,0 +1,595 @@
+[
+  {
+    "id": "SG-Q1",
+    "front": "What is the primary functional difference between white adipose tissue (WAT) and brown adipose tissue (BAT)?",
+    "back": "• **WAT** stores energy as triglycerides in large unilocular lipid droplets.\n• **BAT** specializes in thermogenesis by uncoupling the electron transport chain via UCP1 to generate heat.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q2",
+    "front": "What are adipokines, and how do they enable adipose tissue to function as an endocrine organ?",
+    "back": "• **Adipokines** are hormones, peptides, or enzymes secreted by adipocytes.\n• They act in autocrine, paracrine, and endocrine fashions to regulate local adipose biology and systemic metabolism, e.g., leptin and adiponectin.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q3",
+    "front": "Explain the difference between adipocyte hypertrophy and hyperplasia in WAT expansion.",
+    "back": "• **Hypertrophy**: existing adipocytes enlarge by accumulating more triglycerides.\n• **Hyperplasia**: new adipocytes are generated via proliferation of adipose stem cells and adipogenesis.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q4",
+    "front": "How do sex steroids like testosterone and estrogen influence fat distribution in the body?",
+    "back": "• **Testosterone** promotes visceral fat accumulation, reduces lipid burning, and predisposes to insulin resistance.\n• **Estrogen** favors subcutaneous fat storage, enhances lipid oxidation (smaller adipocytes), reduces fibrosis/inflammation, and increases energy expenditure.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q5",
+    "front": "What is insulin resistance, and how does it relate to the progression towards type 2 diabetes?",
+    "back": "• **Insulin resistance** is the diminished ability of target cells (adipocytes, muscle) to respond to insulin, impairing GLUT4-mediated glucose uptake.\n• Chronic insulin resistance leads to hyperglycemia and compensatory hyperinsulinemia, progressing to β-cell failure and type 2 diabetes.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q6",
+    "front": "Describe the role of the hormone leptin, secreted by adipose tissue, in regulating appetite.",
+    "back": "• **Leptin** is secreted in proportion to fat mass and binds hypothalamic leptin receptors.\n• It increases anorexigenic peptides and decreases orexigenic peptides, signaling satiety and suppressing food intake.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q7",
+    "front": "What is lipotoxicity, and where do the excessive lipids that cause it primarily originate in obesity?",
+    "back": "• **Lipotoxicity** occurs when elevated circulating lipids become toxic to cells and organs.\n• Excess lipids arise from uncontrolled adipocyte lipolysis, increased hepatic de novo lipogenesis, and dietary intake.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q8",
+    "front": "Explain non-shivering thermogenesis and the key protein involved in this process in brown adipose tissue.",
+    "back": "• **Non-shivering thermogenesis** is heat production without muscle activity, driven by BAT.\n• Mediated by **UCP1**, which uncouples the proton gradient in mitochondria, dissipating energy as heat instead of ATP.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q9",
+    "front": "Why is visceral fat generally considered metabolically unhealthy compared to subcutaneous fat?",
+    "back": "• **Visceral fat** has larger, homogeneous adipocytes, poor vascularization, pro-inflammatory immune profile, decreased stimulated lipolysis, and increased TG synthesis, raising metabolic disease risk.\n• **Subcutaneous fat** has heterogeneous adipocytes, better vascularity, and a protective metabolic profile.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "SG-Q10",
+    "front": "What is the primary mechanism by which insulin stimulates glucose uptake in adipocytes and muscle cells?",
+    "back": "• Insulin binds its receptor, triggering phosphorylation cascades (IRS→PI3K→Akt).\n• Akt promotes translocation of **GLUT4** vesicles to the plasma membrane, enabling glucose entry into the cell.",
+    "tags": ["StudyGuide","Quiz"]
+  },
+  {
+    "id": "GT-1",
+    "front": "What is an adipocyte?",
+    "back": "An **adipocyte** is a specialized cell for storing energy as triglycerides in lipid droplets; it also secretes adipokines that regulate metabolism.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-2",
+    "front": "What is adipogenesis?",
+    "back": "Adipogenesis is the process of creating new adipocytes from adipose stem cells, involving PPARγ-mediated gene expression and lipid droplet formation.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-3",
+    "front": "Define adipokine.",
+    "back": "An **adipokine** is a hormone, peptide, or enzyme secreted by adipose tissue that regulates local and systemic metabolic and inflammatory pathways.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-4",
+    "front": "What is adiponectin and its role?",
+    "back": "Adiponectin is an adipokine produced exclusively by adipocytes; it enhances insulin sensitivity, promotes fatty acid oxidation, and has anti-inflammatory effects.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-5",
+    "front": "What characterizes brown adipose tissue (BAT)?",
+    "back": "**BAT** contains multilocular lipid droplets, abundant mitochondria (rich in iron), and expresses UCP1 to uncouple oxidative phosphorylation for heat generation.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-6",
+    "front": "What characterizes white adipose tissue (WAT)?",
+    "back": "**WAT** consists of unilocular adipocytes specialized for energy storage as triglycerides and functions as an active endocrine organ secreting adipokines.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-7",
+    "front": "What is uncoupling protein 1 (UCP1)?",
+    "back": "**UCP1** is a mitochondrial membrane protein in brown adipocytes that creates a proton leak, dissipating the gradient as heat instead of generating ATP.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-8",
+    "front": "Define lipolysis.",
+    "back": "Lipolysis is the enzymatic breakdown of triglycerides into glycerol and free fatty acids, primarily mediated by hormone-sensitive lipase and ATGL in adipocytes.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-9",
+    "front": "What is PPARγ and its relevance to adipose tissue?",
+    "back": "PPARγ is a nuclear receptor essential for adipogenesis; it regulates genes controlling lipid uptake, storage, and insulin sensitivity in adipocytes.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-10",
+    "front": "What is android-type obesity?",
+    "back": "Android-type obesity refers to abdominal (visceral) fat accumulation (\"apple shape\"), associated with higher metabolic risk than lower-body (gynoid) obesity.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "L12-T1-C01",
+    "front": "What distinguishes mechanical (behavioral) fat from metabolic white adipose tissue?",
+    "back": "• **Mechanical fat** provides structural or behavioral functions (e.g., cushioning, insulation).\n• **Metabolic WAT** stores energy as triglycerides and acts as an active endocrine organ, secreting adipokines to regulate metabolism.",
+    "tags": ["Lecture 12","WAT Anatomy"]
+  },
+  {
+    "id": "L12-T1-C02",
+    "front": "Which cell types comprise the stromal vascular compartment (SVF) in white adipose tissue?",
+    "back": "The SVF contains:\n1. Vascular endothelial cells  \n2. Smooth muscle cells  \n3. Fibroblasts  \n4. Immune cells (macrophages, T-cells, B-cells)  \n5. Adipose stem/progenitor cells",
+    "tags": ["Lecture 12","WAT Anatomy"]
+  },
+  {
+    "id": "L12-T1-C03",
+    "front": "Why is white adipose tissue considered a major endocrine organ?",
+    "back": "• WAT secretes adipokines (e.g., leptin, adiponectin) that act via autocrine, paracrine, and endocrine signaling.\n• It regulates appetite, glucose and lipid metabolism, inflammation, vascular function, and even reproduction.",
+    "tags": ["Lecture 12","WAT Function"]
+  },
+  {
+    "id": "L12-T1-C04",
+    "front": "How does collagen facilitate adipose tissue plasticity?",
+    "back": "• Collagen fibers form an elastic ECM ‘sleeve’ around adipocytes.\n• This allows WAT to expand and contract in response to energy balance without structural damage.",
+    "tags": ["Lecture 12","WAT Anatomy"]
+  },
+  {
+    "id": "L12-T1-C05",
+    "front": "List key anatomical and functional differences between subcutaneous and visceral fat depots.",
+    "back": "• **Subcutaneous:** heterogeneous adipocyte sizes, highly vascularized, protective metabolic profile.\n• **Visceral:** homogenous large adipocytes, poor vascularization, pro-inflammatory, increased TG synthesis, higher metabolic risk.",
+    "tags": ["Lecture 12","WAT Anatomy"]
+  },
+  {
+    "id": "L13-T1-C01",
+    "front": "Compare acute versus chronic hypoxia during adipocyte hypertrophy.",
+    "back": "• **Acute hypoxia:** mild O₂ limitation → angiogenic factor release → healthy capillary growth.\n• **Chronic hypoxia:** sustained O₂ deprivation → cell stress, adipocyte death → inflammation and dysfunction.",
+    "tags": ["Lecture 13","WAT Expansion"]
+  },
+  {
+    "id": "L13-T1-C02",
+    "front": "What are the four phases of fibrogenesis in expanding white adipose tissue?",
+    "back": "1. **Initiation:** hypertrophy & hypoxia stimulate pro-fibrotic signals.  \n2. **Activation:** fibroblast proliferation.  \n3. **Elaboration:** deposition of collagen & ECM.  \n4. **Progression:** advanced fibrosis disrupts tissue function.",
+    "tags": ["Lecture 13","WAT Dysfunction"]
+  },
+  {
+    "id": "L13-T1-C03",
+    "front": "Define hypoxia in WAT and its cellular consequences.",
+    "back": "• **Hypoxia:** insufficient O₂ diffusion into enlarged adipocytes.\n• Consequences: ER stress, mitochondrial dysfunction, pro-inflammatory cytokine release, adipocyte death.",
+    "tags": ["Lecture 13","WAT Dysfunction"]
+  },
+  {
+    "id": "L13-T1-C04",
+    "front": "What are crown-like structures in adipose tissue, and what do they indicate?",
+    "back": "• Aggregates of macrophages surrounding dead adipocytes.\n• Marker of adipocyte necrosis and local inflammation within WAT.",
+    "tags": ["Lecture 13","WAT Dysfunction"]
+  },
+  {
+    "id": "L13-T1-C05",
+    "front": "Describe the role of macrophages in adipose inflammation during obesity.",
+    "back": "• Macrophages infiltrate hypertrophic WAT in response to adipocyte stress.\n• They clear dead cells, secrete cytokines, and perpetuate inflammation, contributing to insulin resistance.",
+    "tags": ["Lecture 13","WAT Dysfunction"]
+  },
+  {
+    "id": "L14-T1-C01",
+    "front": "Describe the differences between autocrine, paracrine, and endocrine adipokine signaling.",
+    "back": "• **Autocrine:** adipokine acts on the same cell that secreted it.  \n• **Paracrine:** adipokine diffuses to nearby cells within the tissue.  \n• **Endocrine:** adipokine enters the bloodstream to act on distant target organs.",
+    "tags": ["Lecture 14","Adipokines"]
+  },
+  {
+    "id": "L14-T1-C02",
+    "front": "List key processes regulated by adipokines.",
+    "back": "Adipokines regulate:  \n• Appetite and energy intake  \n• Reproduction and fertility  \n• Lipid metabolism and ectopic fat storage  \n• Insulin secretion and sensitivity  \n• Glucose metabolism  \n• Endothelial function and angiogenesis  \n• Immune/inflammatory responses  \n• Adipogenesis",
+    "tags": ["Lecture 14","Adipokines"]
+  },
+  {
+    "id": "L14-T1-C03",
+    "front": "What factors disrupt normal adipokine secretion in white adipose tissue dysfunction?",
+    "back": "• **Adipocyte hypertrophy:** altered gene expression with size.  \n• **Hypoxia:** limited O₂ induces stress and dysregulation.  \n• **Inflammation:** cytokines alter secretion profiles.  \n• **Depot type:** visceral WAT secretes more pro-inflammatory adipokines than subcutaneous WAT.",
+    "tags": ["Lecture 14","Adipokines"]
+  },
+  {
+    "id": "L14-T1-C04",
+    "front": "Explain the mechanism of leptin resistance in obesity.",
+    "back": "• Elevated leptin levels in proportion to fat mass.  \n• Downregulation or desensitization of hypothalamic leptin receptors.  \n• Impaired JAK-STAT signaling → inability to suppress orexigenic pathways despite high leptin.",
+    "tags": ["Lecture 14","Leptin"]
+  },
+  {
+    "id": "L14-T1-C05",
+    "front": "What is adiponectin and how are its levels altered in obesity?",
+    "back": "• **Adiponectin** is an insulin-sensitizing adipokine that promotes fatty acid oxidation and has anti-inflammatory effects.  \n• In obesity, adiponectin levels are paradoxically decreased, contributing to insulin resistance and metabolic dysfunction.",
+    "tags": ["Lecture 14","Adiponectin"]
+  },
+  {
+    "id": "L15-T1-C01",
+    "front": "What are the two main processes maintaining blood glucose during fasting?",
+    "back": "• **Glycogenolysis:** breakdown of hepatic glycogen stores.  \n• **Gluconeogenesis:** de novo glucose synthesis from substrates (glycerol, lactate, amino acids) primarily in the liver.",
+    "tags": ["Lecture 15","Glucose Homeostasis"]
+  },
+  {
+    "id": "L15-T1-C02",
+    "front": "How does insulin regulate glucose homeostasis in the fed state?",
+    "back": "• Stimulates **glycogenesis** in liver and muscle (glucose → glycogen).  \n• Inhibits gluconeogenesis and lipolysis.  \n• Promotes GLUT4 translocation in adipose and muscle for glucose uptake.  \n• Activates lipogenesis in adipocytes.",
+    "tags": ["Lecture 15","Glucose Homeostasis"]
+  },
+  {
+    "id": "L15-T1-C03",
+    "front": "Compare the pathophysiology of Type 1 vs. Type 2 diabetes.",
+    "back": "• **Type 1:** autoimmune destruction of pancreatic β-cells → absolute insulin deficiency.  \n• **Type 2:** insulin resistance in peripheral tissues + relative β-cell dysfunction → progressive hyperglycemia.",
+    "tags": ["Lecture 15","Diabetes"]
+  },
+  {
+    "id": "L15-T1-C04",
+    "front": "Why are DPP-4 inhibitors effective anti-diabetic treatments?",
+    "back": "• **DPP-4** degrades incretin hormones (GLP-1, GIP), which potentiate glucose-stimulated insulin secretion.  \n• Inhibition increases incretin levels → enhanced insulin release, suppressed glucagon, improved glycemic control.",
+    "tags": ["Lecture 15","DPP-4"]
+  },
+  {
+    "id": "L15-T1-C05",
+    "front": "What are the two major hypotheses for the development of type 2 diabetes?",
+    "back": "1. **Insulin resistance first:** obesity-induced disruption of insulin signaling → hyperinsulinemia → β-cell stress and failure.  \n2. **Hyperinsulinemia first:** chronic overnutrition drives excess insulin secretion, leading to peripheral insulin resistance and eventual β-cell decompensation.",
+    "tags": ["Lecture 15","Diabetes"]
+  },
+  {
+    "id": "L17-T1-C01",
+    "front": "What is FoxO1 and how does insulin signaling regulate hepatic gluconeogenesis via FoxO1?",
+    "back": "• **FoxO1** is a transcription factor controlling genes for gluconeogenic enzymes in hepatocytes.  \n• **Insulin** activates its receptor → PI3K/Akt cascade → phosphorylation of FoxO1 → nuclear exclusion and proteasomal degradation → ↓ gluconeogenesis.",
+    "tags": ["Lecture 17","Insulin Resistance"]
+  },
+  {
+    "id": "L17-T1-C02",
+    "front": "Describe the stages of non-alcoholic fatty liver disease (NAFLD).",
+    "back": "1. **NAFL**: hepatic steatosis without inflammation.  \n2. **NASH**: steatosis + lobular inflammation and hepatocellular injury.  \n3. **Cirrhosis**: extensive fibrosis, nodular regeneration, impaired liver function.",
+    "tags": ["Lecture 17","NAFLD"]
+  },
+  {
+    "id": "L17-T1-C03",
+    "front": "What are the primary sources of excessive hepatic lipids in NAFLD?",
+    "back": "• **Dietary lipids**.  \n• **Uncontrolled adipocyte lipolysis** (~65% of hepatic lipids).  \n• **Hepatic de novo lipogenesis** driven by insulin resistance and high carbohydrate flux.",
+    "tags": ["Lecture 17","Lipotoxicity"]
+  },
+  {
+    "id": "L17-T1-C04",
+    "front": "What role do Kupffer cells play in NAFLD progression?",
+    "back": "• **Kupffer cells** are liver-resident macrophages.  \n• They detect excess lipids → secrete pro-inflammatory cytokines (e.g., TNF-α) → recruit immune cells → exacerbate hepatocellular injury and fibrosis.",
+    "tags": ["Lecture 17","NAFLD"]
+  },
+  {
+    "id": "L17-T1-C05",
+    "front": "How do hepatic stellate cells contribute to fibrosis in NASH?",
+    "back": "• **Stellate cells** store vitamin A in quiescent state.  \n• Upon chronic injury/inflammation, they activate → transform into myofibroblast-like cells → secrete collagen and ECM → drive fibrotic scarring.",
+    "tags": ["Lecture 17","NAFLD"]
+  },
+  {
+    "id": "L18-T1-C01",
+    "front": "What differentiates brown adipose tissue from beige adipose tissue?",
+    "back": "• **Brown fat:** defined depots, distinct stem cell origin, constitutive UCP1 expression.  \n• **Beige fat:** arises within WAT upon cold exposure, different gene signature, inducible UCP1 expression only under thermogenic stimuli.",
+    "tags": ["Lecture 18","Thermogenic Fat"]
+  },
+  {
+    "id": "L18-T1-C02",
+    "front": "Outline the activation pathway leading to non-shivering thermogenesis in brown adipocytes.",
+    "back": "1. **Cold** detected by skin thermoreceptors → hypothalamic activation.  \n2. **Sympathetic** release of norepinephrine → binds β3-adrenergic receptors.  \n3. ↑ cAMP → PKA activation → UCP1 transcription & mitochondrial biogenesis.  \n4. Lipolysis provides fatty acids → UCP1-mediated uncoupling → heat production.",
+    "tags": ["Lecture 18","Thermogenic Fat"]
+  },
+  {
+    "id": "L18-T1-C03",
+    "front": "Describe the historical discovery of brown adipose tissue.",
+    "back": "• First noted by Conrad Gessner in hibernating marmots >500 yrs ago as the \"hibernating gland.\"  \n• 1960s: identified as heat-generating tissue in non-hibernators via adaptive thermogenesis studies.",
+    "tags": ["Lecture 18","Thermogenic Fat"]
+  },
+  {
+    "id": "L18-T1-C04",
+    "front": "How was thermogenic fat identified in adult humans?",
+    "back": "• **FDG-PET scans** revealed glucose-avid depots in supraclavicular regions.  \n• Biopsies confirmed UCP1⁺ multilocular adipocytes.  \n• Seasonal and cold-exposure studies show functional thermogenic activity.",
+    "tags": ["Lecture 18","Thermogenic Fat"]
+  },
+  {
+    "id": "L18-T1-C05",
+    "front": "What triggers the emergence of beige adipocytes in white fat depots?",
+    "back": "• Chronic cold exposure or β3-adrenergic agonists.  \n• SNS activation → PKA signaling in WAT → induction of thermogenic gene program (e.g., UCP1) in pre-existing white adipocytes or progenitors.",
+    "tags": ["Lecture 18","Thermogenic Fat"]
+  },
+  {
+    "id": "L20-T1-C01",
+    "front": "What are the eligibility criteria for bariatric surgery?",
+    "back": "• **BMI ≥ 40**, or >100 pounds overweight.  \n• **BMI ≥ 35** with at least one obesity-related comorbidity (e.g., type 2 diabetes).  \n• Failure to achieve sustained weight loss through non-surgical interventions. :contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}",
+    "tags": ["Lecture 20","Bariatric Surgery"]
+  },
+  {
+    "id": "L20-T1-C02",
+    "front": "Compare sleeve gastrectomy and Roux-en-Y gastric bypass in mechanism of action.",
+    "back": "• **Sleeve gastrectomy:** resection of the ghrelin-producing gastric fundus → reduced appetite.  \n• **Roux-en-Y bypass:** creates a small gastric pouch and reroutes duodenum/jejunum → decreased nutrient absorption and altered gut hormone signaling. :contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}",
+    "tags": ["Lecture 20","Bariatric Surgery"]
+  },
+  {
+    "id": "L20-T1-C03",
+    "front": "How does bariatric surgery affect resting energy expenditure (REE) post-operatively?",
+    "back": "• REE decreases due to loss of fat-free mass (FFM).  \n• At 3 months: FM −19 kg, FFM −6 kg → REE −240 kcal/day.  \n• At 6 months: FM −20 kg, FFM −8 kg → REE −400 kcal/day. :contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}",
+    "tags": ["Lecture 20","Metabolism"]
+  },
+  {
+    "id": "L20-T1-C04",
+    "front": "Describe the changes in ghrelin, CCK, and GLP-1 levels after gastric bypass.",
+    "back": "• **Ghrelin:** post‐prandial and diurnal fluctuations are abolished → lower orexigenic drive.  \n• **CCK:** restored post‐prandial release to lean levels → enhanced satiety.  \n• **GLP-1:** increased post‐meal secretion → improved insulin sensitivity and glucose control. :contentReference[oaicite:6]{index=6}&#8203;:contentReference[oaicite:7]{index=7}",
+    "tags": ["Lecture 20","Gut Hormones"]
+  },
+  {
+    "id": "L20-T1-C05",
+    "front": "What long-term nutritional considerations must patients follow after bariatric surgery?",    "back": "• Lifelong **micronutrient supplementation** (iron, B12, calcium, vitamin D).  \n• Adherence to staged diet progression (liquids → pureed → solids).  \n• Regular monitoring for deficiencies and nutritional counseling. :contentReference[oaicite:8]{index=8}&#8203;:contentReference[oaicite:9]{index=9}",
+    "tags": ["Lecture 20","Post-Operative Care"]
+  },
+  {
+    "id": "GL-TrZn-C01",
+    "front": "Why is zinc classified as a Type II micronutrient, and what are the consequences of its deficiency?",
+    "back": "• **Type II** nutrients are growth nutrients essential for cellular division and tissue growth.  \n• Zinc deficiency leads to stunting, impaired immune function, and growth retardation. :contentReference[oaicite:10]{index=10}&#8203;:contentReference[oaicite:11]{index=11}",
+    "tags": ["GuestLecture","Zinc"]
+  },
+  {
+    "id": "GL-TrZn-C02",
+    "front": "What are the main families of zinc transporters and their functions?",
+    "back": "• **ZIP (SLC39A1-14):** import Zn²⁺ into cytosol from extracellular or organellar compartments.  \n• **ZnT (SLC30A1-9):** export Zn²⁺ from cytosol to extracellular space or organelles. :contentReference[oaicite:12]{index=12}&#8203;:contentReference[oaicite:13]{index=13}",
+    "tags": ["GuestLecture","Zinc"]
+  },
+  {
+    "id": "GL-TrZn-C03",
+    "front": "How is zinc distributed across body tissues?",
+    "back": "Total adult body zinc ~1.5–2.5 g:  \n• Skeletal muscle: 60%  \n• Bone: 30%  \n• Liver & skin: 5%  \n• Other tissues: 5%  \n• Plasma: 0.1%, mostly albumin-bound. :contentReference[oaicite:14]{index=14}&#8203;:contentReference[oaicite:15]{index=15}",
+    "tags": ["GuestLecture","Zinc"]
+  },
+  {
+    "id": "GL-TrZn-C04",
+    "front": "What is the relationship between zinc status and obesity/diabetes?",
+    "back": "• Zinc deficiency is common in obesity and type 2 diabetes.  \n• Supplementation reduces blood glucose concentrations and body weight via improved insulin signaling. :contentReference[oaicite:16]{index=16}&#8203;:contentReference[oaicite:17]{index=17}",
+    "tags": ["GuestLecture","Zinc"]
+  },
+  {
+    "id": "GL-TrZn-C05",
+    "front": "Explain how ZIP14 deletion affects intestinal zinc transport and metabolic health?",
+    "back": "• ZIP14-KO mice show impaired serosal→mucosal Zn transport → chronic GI zinc deficiency.  \n• Leads to increased gut permeability, endotoxemia, adipose inflammation, and insulin resistance. :contentReference[oaicite:18]{index=18}&#8203;:contentReference[oaicite:19]{index=19}",
+    "tags": ["GuestLecture","Zinc"]
+  },
+  {
+    "id": "GL-EC-C01",
+    "front": "What developmental characteristics of preschoolers affect their eating behaviors?",
+    "back": "• **Autonomy & Independence:** desire to control choices (\"no!\", \"mine!\").  \n• **Limited Vocabulary:** can’t articulate hunger/fullness well.  \n• **Fear of New Foods (neophobia):** peaks at 18 mo–5 y.  \n• **Immature Motor & Social Skills:** influence self-feeding and mealtime interactions.",
+    "tags": ["GuestLecture","EarlyChildhood"]
+  },
+  {
+    "id": "GL-EC-C02",
+    "front": "Define food neophobia and its typical developmental trajectory.",
+    "back": "• **Food neophobia:** reluctance to try unfamiliar foods.  \n• **Timing:** peaks between 18 months and 5 years, then generally declines with age.",
+    "tags": ["GuestLecture","EarlyChildhood"]
+  },
+  {
+    "id": "GL-EC-C03",
+    "front": "What is picky eating and how does it differ from neophobia?",
+    "back": "• **Picky eating:** limited acceptance of both familiar and new foods.  \n• **Neophobia:** specifically fear of novel foods; picky eaters may reject known favorites as well.",
+    "tags": ["GuestLecture","EarlyChildhood"]
+  },
+  {
+    "id": "GL-EC-C04",
+    "front": "How do sensory exploratory behaviors facilitate children’s acceptance of new foods?",
+    "back": "• **Behaviors:** smelling, licking, touching foods.  \n• **Effect:** gradual familiarization with sensory attributes (appearance, aroma, texture) → increased willingness to taste and accept novel foods.",
+    "tags": ["GuestLecture","EarlyChildhood"]
+  },
+  {
+    "id": "GL-EC-C05",
+    "front": "What intervention strategies can increase vegetable intake in preschoolers?",
+    "back": "• **Repeated exposure:** multiple tasting opportunities.  \n• **Modeling:** caregivers and peers eating together.  \n• **Sensory familiarity:** letting children explore with senses before tasting.  \n• **Positive reinforcement:** praise and non-food rewards.",
+    "tags": ["GuestLecture","EarlyChildhood"]
+  },
+  {
+    "id": "GT-11",
+    "front": "Define anorexigenic.",
+    "back": "Pertaining to signals or substances that suppress appetite and reduce food intake.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-12",
+    "front": "What is autocrine signaling?",
+    "back": "A mode of cell signaling where a cell secretes a hormone or chemical messenger that binds to receptors on the same cell.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-13",
+    "front": "What is endocrine signaling?",
+    "back": "A mode of cell signaling where hormones are secreted into the bloodstream and travel to act on distant target cells.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-14",
+    "front": "What are catecholamines?",
+    "back": "Hormones (e.g., norepinephrine, epinephrine) released by the sympathetic nervous system that activate brown adipocytes and regulate stress responses.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-15",
+    "front": "Define cirrhosis.",
+    "back": "A chronic liver condition characterized by extensive fibrosis (scar tissue) and nodular regeneration, leading to impaired liver function.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-16",
+    "front": "What is ectopic fat?",
+    "back": "Lipid accumulation in tissues not specialized for fat storage (e.g., liver, muscle), often leading to cellular dysfunction and lipotoxicity.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-17",
+    "front": "Define fibrosis.",
+    "back": "The formation of excess connective (fibrous) tissue in an organ or tissue, often as a reparative or reactive response, leading to scarring.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-18",
+    "front": "What is lipogenesis?",
+    "back": "The metabolic process of synthesizing fatty acids and triglycerides, primarily in the liver and adipose tissue, for energy storage.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-19",
+    "front": "Define lipodystrophy.",
+    "back": "A condition characterized by partial or complete loss of adipose tissue, which can be congenital or acquired, leading to metabolic complications.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-20",
+    "front": "What is macrosteatosis?",
+    "back": "The accumulation of large lipid droplets within hepatocytes, characteristic of advanced hepatic steatosis.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-21",
+    "front": "What is microsteatosis?",
+    "back": "The accumulation of small lipid droplets within hepatocytes, often seen in early stages of fatty liver disease.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-22",
+    "front": "Define MASLD.",
+    "back": "Metabolic Dysfunction-Associated Steatotic Liver Disease: a spectrum of liver conditions previously under NAFLD, associated with metabolic dysfunction.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-23",
+    "front": "What is metallothionein?",
+    "back": "A class of cysteine-rich proteins that bind metal ions (e.g., zinc) to regulate metal homeostasis and detoxification.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-24",
+    "front": "What is NAFL?",
+    "back": "Nonalcoholic Fatty Liver: hepatic triglyceride accumulation without inflammation or hepatocellular damage.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-25",
+    "front": "Define NAFLD.",
+    "back": "Nonalcoholic Fatty Liver Disease: a spectrum of liver conditions characterized by hepatic steatosis in individuals with minimal alcohol intake.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-26",
+    "front": "What is NASH?",
+    "back": "Nonalcoholic Steatohepatitis: a severe form of NAFLD featuring hepatic steatosis, lobular inflammation, and hepatocellular injury.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-27",
+    "front": "Define orexigenic.",
+    "back": "Pertaining to signals or substances that stimulate appetite and increase food intake.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-28",
+    "front": "What is paracrine signaling?",
+    "back": "A mode of cell signaling where a secreted molecule acts on neighboring cells in the immediate vicinity.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-29",
+    "front": "What are SLC family transporters?",
+    "back": "Solute Carrier superfamily membrane transport proteins, including ZIP and ZnT families, that mediate movement of ions and small molecules across membranes.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-30",
+    "front": "Define steatotic liver disease.",
+    "back": "A condition characterized by excessive fat accumulation (steatosis) in the liver, often linked to metabolic disorders.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-31",
+    "front": "What are stellate cells?",
+    "back": "Liver-specific mesenchymal cells in the space of Disse, storing vitamin A; when activated, they produce collagen and contribute to fibrosis.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-32",
+    "front": "What is the stromal vascular compartment (SVC)?",
+    "back": "The non-adipocyte fraction of adipose tissue containing vascular endothelium, smooth muscle, fibroblasts, immune cells, and stem cells.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-33",
+    "front": "Define subcutaneous fat.",
+    "back": "Adipose tissue located directly under the skin, characterized by heterogeneous adipocytes and a protective metabolic profile.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-34",
+    "front": "What is thermogenesis?",
+    "back": "The process by which organisms produce heat, including shivering thermogenesis (muscle activity) and non-shivering thermogenesis (metabolic uncoupling in BAT).",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-35",
+    "front": "What are thiazolidinediones (TZDs)?",
+    "back": "A class of insulin-sensitizing drugs that act as PPARγ agonists, promoting adipogenesis and improving glucose uptake and insulin sensitivity.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-36",
+    "front": "Define trace minerals (trace elements).",
+    "back": "Minerals required in small amounts (<20 mg/day) for physiological functions, including zinc, iron, selenium, and manganese.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-37",
+    "front": "What is a triglyceride?",
+    "back": "An ester derived from glycerol and three fatty acids, serving as the primary form of energy storage in adipocytes.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-38",
+    "front": "Define Type 2 diabetes.",
+    "back": "A metabolic disorder characterized by insulin resistance and β-cell dysfunction, leading to chronic hyperglycemia.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "GT-39",
+    "front": "What is visceral fat?",
+    "back": "Adipose tissue located within the abdominal cavity surrounding internal organs, associated with increased metabolic risk.",
+    "tags": ["Glossary"]
+  },
+  {
+    "id": "SG-E1",
+    "front": "Compare and contrast subcutaneous and visceral WAT, including the role of sex steroids in their distribution.",
+    "back": "• **Location:** Subcutaneous (under skin) vs Visceral (around organs).  \n• **Cellular:** Subcutaneous—heterogeneous adipocyte sizes, better vascularization; Visceral—homogeneous large adipocytes, poor vascularization.  \n• **Metabolic Activity:** Subcutaneous—protective, insulin sensitive; Visceral—pro-inflammatory, insulin resistant.  \n• **Sex Steroids:** Estrogen promotes subcutaneous deposition and lipid oxidation; testosterone promotes visceral accumulation and reduces lipid burning.",
+    "tags": ["StudyGuide","Essay1"]
+  },
+  {
+    "id": "SG-E2",
+    "front": "Discuss the progression from metabolically healthy to pathological obesity, focusing on adipocyte hypertrophy, hypoxia, fibrosis, and inflammation.",
+    "back": "• **Hypertrophy:** chronic overnutrition enlarges adipocytes → maximal lipid droplet size → dysfunction.  \n• **Hypoxia:** enlarged cells exceed O₂ diffusion → acute angiogenesis then chronic cell stress and death.  \n• **Fibrosis:** prolonged hypoxia activates fibroblasts → excess ECM deposition → tissue stiffening.  \n• **Inflammation:** adipocyte death and cytokine release recruit macrophages → crown-like structures → chronic inflammation and systemic insulin resistance.",
+    "tags": ["StudyGuide","Essay2"]
+  },
+  {
+    "id": "SG-E3",
+    "front": "Explain how WAT functions as an endocrine organ via adipokine secretion, discussing leptin and adiponectin and how their dysregulation in obesity leads to metabolic disease.",
+    "back": "• **Endocrine Function:** adipocytes secrete adipokines (autocrine/paracrine/endocrine).  \n• **Leptin:** signals satiety; in obesity, elevated levels but receptor desensitization causes leptin resistance → continued appetite.  \n• **Adiponectin:** enhances insulin sensitivity and fatty acid oxidation; decreased in obesity → worsened insulin resistance and inflammation.",
+    "tags": ["StudyGuide","Essay3"]
+  },
+  {
+    "id": "SG-E4",
+    "front": "Describe normal glucose and insulin regulation in fed and fasted states, and compare the two hypotheses for the development of insulin resistance and type 2 diabetes.",
+    "back": "• **Fasted:** low insulin → glycogenolysis + gluconeogenesis in liver → maintain blood glucose.  \n• **Fed:** high insulin → glycogenesis, lipogenesis, GLUT4-mediated uptake, inhibit gluconeogenesis and lipolysis.  \n• **Hypotheses:**  \n  1. Insulin resistance first: obesity impairs signaling → hyperinsulinemia → β-cell stress.  \n  2. Hyperinsulinemia first: chronic overnutrition drives excess insulin → downregulation of receptor sensitivity → resistance.",
+    "tags": ["StudyGuide","Essay4"]
+  },
+  {
+    "id": "SG-E5",
+    "front": "Discuss the link between dysfunctional adipocytes and NAFLD, explaining how impaired lipid storage leads to lipotoxicity and ectopic fat accumulation, and outline the stages of NAFLD progression.",
+    "back": "• **Dysfunctional adipocytes:** hypertrophy → uncontrolled lipolysis → elevated circulating FFAs.  \n• **Lipotoxicity:** excess FFAs deposit in liver → hepatocyte stress and inflammation.  \n• **Stages:**  \n  1. NAFL: steatosis without inflammation.  \n  2. NASH: steatosis + lobular inflammation/hepatocellular injury.  \n  3. Cirrhosis: fibrosis and architectural distortion, impaired function.",
+    "tags": ["StudyGuide","Essay5"]
+  }
+]
