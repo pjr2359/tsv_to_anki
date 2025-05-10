@@ -2,7 +2,7 @@ import csv
 import html
 from genanki import Deck, Note, Package, Model
 
-NAME = "wellness_f" #dont include .tsv
+NAME = "CS3410_Detailed_Flashcards"
 MODEL = 1607392319
 
 model_id = MODEL 
